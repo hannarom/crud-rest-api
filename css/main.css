@@ -1,0 +1,98 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+/**/
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.users-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.user {
+	background-color: #d3d3d3;
+	border-radius: 10px;
+	max-width: 460px;
+	width: 100%;
+	border: solid 1px gray;
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	padding: 16px 24px;
+
+}
+
+/*.user:last-child {
+		margin-bottom: 0;
+}*/
+
+.user__img {
+	height: 132px;
+	width: 132px;
+	border: solid 1px gray;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user__avatar {
+	border-radius: 10px;
+
+}
+
+.user__firstname {
+	margin-bottom: 10px;
+}
+
+.user__lastname {
+	margin-bottom: 10px;
+}
+
+.user__data {
+	font-size: 16px;
+}
+
+.footer {
+	padding-top: 50px;
+}
